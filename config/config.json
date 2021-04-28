@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgress",
-    "database": "waysgallery",
-    "host": "172.31.90.215",
+    "username": "root",
+    "password": null,
+    "database": "database_dev",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
