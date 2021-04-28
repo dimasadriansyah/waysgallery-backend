@@ -7,6 +7,9 @@ WORKDIR /usr/src/app
 # copy file to container
 COPY . .
 
+# install & builds
+RUN npm install && npm run build
+
 # install sequelize
 RUN npm install -g sequelize-cli
 
