@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # install & builds
-RUN npm i && npm run build
+RUN npm i
 
 # install sequelize
 RUN npm install -g sequelize-cli
