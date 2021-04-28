@@ -7,6 +7,9 @@ WORKDIR /usr/src/app
 # copy file to container
 COPY . .
 
+# install sequelize
+RUN npm install -g sequelize-cli
+
 # expose to 5000
 EXPOSE 5000
 
