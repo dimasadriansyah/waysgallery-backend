@@ -4,6 +4,9 @@ FROM node:14
 # working directory
 WORKDIR /usr/src/app
 
+# add variable ENV NODE_ENV production
+ENV NODE_ENV production
+
 # copy file to container
 COPY . .
 
